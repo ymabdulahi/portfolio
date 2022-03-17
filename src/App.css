@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: '#444452';
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  width: 100%;
+}
+
+/* HOMEPAGE */
+
+.intro {
+  height: 103vh;
+  padding: 120px 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin: 0 auto;
+  white-space: pre-line;
+}
+
+.intro-heading {
+  font-size: 40px;
+  line-height: 60px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 26.8px 0px;
+  padding: 0px;
+  text-align: start;
+  font-weight: 200;
+  padding-bottom: 80px;
+}
+  
+
+.intro-main-paragraph {
+  vertical-align: baseline;
+  line-height: 60px;
+  margin: 53.2px 0px;
+  letter-spacing: normal;
+  font-weight: 300;
+  text-align: start;
+  font-size: 40px;
+
+}
+
+.bold-paragraph {
+  font-weight: 500;
+  font-size: 2.7rem;
+}
+
+.intro-tagline {
+  font-size: 20px;
+  line-height: 30px;
+  vertical-align: baseline;
+  margin: 40px 0;
+  padding-top: 45px;
+  text-align: start;
+  font-weight: 400;
+}
+
+.intro-tagline .finger-right-emoji {
+  margin: 0 7px;
+}
+
+.finger-right-emoji {
+  width: 30px;
+  height: 30px;
+}
+
+.email-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 3px;
+  color: #444452;
+  border-bottom: 5px solid #007bff;
+  font-weight: 400;
+}
+
+.wave-hand-emoji {
+  margin-left: 10px;
+}
+
+/*
+.email-link:after {
+  content: ""; /* This is necessary for the pseudo element to work. 
+  display: block; /* This will put the pseudo element on its own line. 
+  width: 10%; /* Change this to whatever width you want to have before hover. 
+  padding-top: 20px; /* This creates some space between the element and the border. 
+  border-bottom: 4px solid #007bff; /* This creates the border. Replace black with whatever color you want. 
+  transition: .5s; /* This establishes the amount of time in seconds the animation should take from start to finish 
+}
+*/
+/*
+.email-link:hover:after {
+  width: 30%; /* This will be the new width of your border when on hover 
+}
+*/
+
+::selection {
+  background-color: #ffdc00;
+}
+
+.switchContainer {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ margin: 0 auto;
+ width: 100%;
+ position: relative;
+}
+
+.switch-platform {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 35px 35px;
+}
+
+
+
+
+
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 200px;
+  white-space: pre-line;
+}
+
+.section-title {
+  display: inline-block;
+  width: 400px;
+  flex-shrink: 0;
+  margin-right: 70px;
+  color: #007bff;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -250px;
+  left: -425px;
+}
+
+.section-background {
+  padding: 100px 170px;
+  position: relative;
+  margin-top: -250px;
+}
+
+.paragraph-content {
+  padding: 10px 0;
+  width: 610px;
+  font-weight: 100;
+}
+
+.section-content {
+  position: absolute;
+  top: -260px;
+  left: -55px;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+
+.item {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 21px;
+  color: #444452;
+}
+
+.label {
+  font-weight: 600;
+  color: #36363c;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.skills-category {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+}
+
+.skills-list-1 {
+  width: 47%;
+  margin-right: 55px;
+  margin-bottom: 25px;
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+
+
+
+
+
+.skills-background {
+  position: relative;
+}
+
+.skills-title {
+  position: absolute;
+  left: 130px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #007bff;
+  font-weight: 700;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Projects */
+
+.section-projects-background {
+  padding: 100px 170px;
+  position: relative;
+  margin-top: 1200px;
+}
+
+.section-projects-title {
+  position: absolute;
+  left: 350px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #007bff;
+  font-weight: 700;
+  text-align: right;
+}
+
+.images {
+  width: 1000px;
+}
+
+
+.parent-text-and-image {
+  margin-bottom: 200px;
+}
+
+.section-projects-content {
+  margin-left: 200px;
+ }
+ 
+.project-description {
+   width: 200px;
+   position: absolute;
+   left: 1250px;
+   bottom: 2400px;
+   font-weight: 200;
+}
+
+.project-title {
+  width: 200px;
+  position: absolute;
+  left: 1250px;
+  bottom: 2550px;
+  font-size: 20px;
+}
+
+.second-section {
+  margin-top: -200px
+}
+
+.project-description-2 {
+  width: 200px;
+  position: absolute;
+  left: 1250px;
+  bottom: 1650px;
+  font-weight: 200;
+}
+
+.project-title-2 {
+ width: 200px;
+ position: absolute;
+ left: 1250px;
+ bottom: 1877px;
+ font-size: 20px;
+}
+
+.project-description-3 {
+  width: 200px;
+  position: absolute;
+  left: 1250px;
+  bottom: 790px;
+  font-weight: 200;
+}
+
+.project-title-3 {
+ width: 200px;
+ position: absolute;
+ left: 1250px;
+ bottom: 1070px;
+ font-size: 20px;
+}
+
+.github-title {
+  position: absolute;
+  left: 600px;
+  bottom: 260px;
+}
+
+.border-bottom {
+  border-bottom: none;
+  top: 40px;
+  position: absolute;
+}
+
+
+.footer-section {
+  height: 90px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+}
+
+.footer-heading {
+  position: absolute;
+  left: -250px;
+  font-weight: 400;
+}
+
+.span-arrangment {
+  position: absolute;
+  left: 1000px;
+  text-decoration: none
+}
+
+.footer-span {
+  margin: 50px 17px;
+  font-size: 16px;
+  line-height: 60px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  padding: 0px;
+  text-align: start;
+  font-weight: 500;
+  color: #007bff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.bof {
+  color: inherit;
+  border: none;
+}
+
+.bofA{
+  color: inherit;
+  border: none;
+}
+
+/* Switching text on night mode for UI*/
+.whitee {
+  color: white;
+}
+
+.whitee2 {
+  color: #afafbf;
+  font-weight: 100;
+}
+
+
+.key-text {
+  font-weight: 500;
+}
+
+
+
+
+
+
+/* RESPONSIVENESS  LAPTOP */
+@media screen and (max-width: 1300px) {
+  body {
+    background-color: white;
+  }
+  .section-background {
+    padding: 100px 170px;
+    position: relative;
+    /* margin-top: -600px; */
+  }
+  .section-margin {
+    margin-top: -200px;
+  }
+  .section-title {
+    position: absolute;
+    color: #007bff;
+    top: 29px;
+  
+    padding-right: 80px;
+  }
+  .section-content {
+    position: absolute;
+    top: 20px;
+    left: -120px;
+  }
+  .section {
+    height: 100vh;
+  }
+  .skills-background {
+    position: relative;
+    margin-top: -29px;
+  }
+  .skills-title {
+    position: absolute;
+    top: 320px;
+    left: -330px;
+  }
+  .skills-category {
+    position: absolute;
+    top: 320px;
+    left: -470px;
+  }
+  .skills-list-1 {
+    margin-right: 60px;
+  }
+
+  .intro-heading {
+   margin-top: 82px;
+  }
+  .intro-main-paragraph {
+    margin-top: -50px;
+    padding-bottom: 53.2px;
+  }
+  .intro-tagline {
+    margin-top: -90px;
+  }
+  /*project*/
+  .section-projects-background {
+    margin-top: 800px;
+    position: relative;
+    left: -100px;
+    margin-right: 200px;
+  }
+  .images {
+    width: 400px;
+  }
+  .section-projects-title {
+    position: absolute;
+    left: 200px;
+  }
+  .project-description {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    font-weight: 200;
+ }
+ .parent-text-and-image {
+  font-size: 13.1px;
+ }
+ .project-description {
+   left: 800px;
+ }
+ .project-description-2 {
+  left: 800px;
+  top: 450px
+ }
+.project-description-3{
+  left: 800px;
+  top: 770px
+}
+.project-title {
+  top: 170px;
+  left: 800px
+}
+.project-title-2 {
+  top: 420px;
+  left: 800px
+}
+.project-title-3 {
+  top: 740px;
+  left: 800px
+}
+/*footer*/
+  .footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 90px;
+    position: relative;
+    padding: 50px 0;
+  }
+  .footer-heading {
+    position: absolute;
+    left: -50px;
+  }
+  .span-arrangment {
+    position: absolute;
+    left: 700px;
+
+  }
+  
+}
+
+/*
+THEN 600 
+
+THEN 400 AND LOWER*/
+
+
+/* @media screen and (max-width: 1100px) {
+  
+  .switch-platform {
+    position: relative;
+  }
+  .switch-for-dark-mode {
+    position: absolute;
+    margin-left: 1020px;
+  }
+} */
+
+@media screen and (max-width: 1540px) {
+  .section-background {
+    margin-top: 25px;
+  }
+  .section-projects-background {
+    margin-bottom: -300px;
+  }
+  .footer-nav {
+    position: relative;
+  }
+  .footer-heading {
+    position: absolute;
+    left: -40px;
+  }
+}
+
+@media screen and (max-width: 1592px) {
+  .footer-nav {
+    position: relative;
+  }
+  .footer-heading {
+    position: absolute;
+    left: -120px;
+  }
+}
+
+/* @media screen and (max-height: 670px) {
+
+  .section-background {
+    margin-top: 150px;
+  }
+  .section-projects-background {
+    margin-top: 800px;
+  }
+}
+
+@media screen and (max-height: 594px) {
+
+  .section-background {
+    margin-top: 150px;
+  }
+  .section-projects-background {
+    margin-top: 1000px;
+  }
+} */
+
+
+/* @media screen and (max-width: 1024px)  {
+  .intro {
+    margin-top: -110px;
+  }
+  .section-background {
+    margin-top: -500px;
+  }
+  .section-projects-background {
+    margin-top: -1000px;
+  }
+  .footer-nav {
+    position: relative;
+  }
+  .footer-heading {
+    position: absolute;
+    left: 20px;
+  }
+} */
+
+/* @media screen and (max-width: 768px)  {
+  .intro {
+    margin-top: -110px;
+  }
+  .section-background {
+    margin-top: -500px;
+    margin-left: 300px;
+    margin-right: auto;
+  }
+  .skills-background {
+    margin-left: 500px;
+    margin-right: auto
+  }
+  .section-title {
+    margin-left: 50px;
+  }
+  .section-content {
+    max-width: 900px;
+  }
+  .section-projects-background {
+   margin-top: -300px;
+  }
+  .footer-nav {
+    position: relative;
+  }
+  .footer-heading {
+    position: absolute;
+    left: 20px;
+  }
+} */
+
+@media screen and (max-width: 900px) {
+  .intro {
+    margin-top: 0px;
+  }
+  .intro-container {
+    width: 700px;
+    position: relative;
+  }
+  .intro-main-paragraph {
+    font-size: 30px;
+  }
+  .intro-heading  {
+    font-size: 30px;
+  }
+  .intro-tagline {
+    position: absolute;
+    left: 400px;
+  }
+  .bold-paragraph {
+    font-size: 30px;
+  }
+  .section-background {
+    position: relative;
+    margin-top: 200px;
+  }
+  .section-title {
+    position: absolute;
+    /* left: -200px;
+    top: -50px; */
+    left: -210px;
+    top: -50px;
+  }
+  .paragraph-content {
+    width: 400px;
+  }
+  .paragraph-content:nth-child(1) {
+    margin-top: -30px;
+  }
+  .skills-background {
+    position: relative;
+  }
+  .skills-title {
+    position: absolute;
+    left: -200px;
+    top: 250px;
+  }
+  .skills-list-1 {
+    display: inline-block;
+    overflow-wrap: break-word;
+  }
+  .parent-text-and-image {
+    margin-left: -250px;
+  }
+  .project-title {
+    margin-left: -300px ;
+  }
+  .project-description {
+    margin-left: -300px;
+  }
+  .project-title-2 {
+    margin-left: -300px ;
+  }
+  .project-description-2 {
+    margin-left: -300px;
+  }
+  .project-title-3 {
+    margin-left: -300px ;
+  }
+  .project-description-3 {
+    margin-left: -300px;
+  }
+  .intro-tagline {
+    margin-left: -400px;
+  }
+  .github-title {
+    margin-left: 30px;
+  }
+  .footer-section {
+    display: none;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2){
+  .switch-platform {
+    position: relative;
+  }
+  .switch-for-dark-mode {
+    position: absolute;
+    left: 0;
+    margin-left: 500px;
+    width: 60px;
+  }
+  .intro {
+    margin-top: 80px;
+    margin-bottom: 900px;
+  }
+  .intro-heading {
+    font-size: 50px;
+    margin-bottom: 300px;
+  }
+  .intro-container {
+    width: 500px;
+  }
+  .intro-main-paragraph {
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top: -250px;
+  }
+  .bold-paragraph {
+    font-size: 45px;
+  }
+  .finger-right-emoji {
+    margin-left: 10px;
+  }
+  .email-link {
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 3px;
+    color: #444452;
+    border-bottom: 5px solid #007bff;
+    font-weight: 400;
+  }
+  /* BACKGROUBD */
+  .section-background {
+    margin-top: -1200px;
+  }
+  .section-title {
+    margin-left: 60px;
+    font-size: 22px;
+  }
+  .section-content {
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  .paragraph-content {
+    font-size: 19px;
+  }
+  .skills-title {
+    margin-left: -50px;
+    font-size: 22px;
+  }
+  .skills-background {
+    margin-top: 200px;
+    margin-left: 170px;
+  }
+  .whitee {
+    font-size: 20px;
+  }
+  .label {
+    font-size: 20px;
+  }
+  .whitee2 {
+    font-size: 16px;
+  }
+  .item {
+    font-size: 16px;
+  }
+  .skills-list-1 > li {
+    margin-bottom: 6px;
+  }
+  .section-projects-background {
+    margin-top: -800px;
+    margin-right: -300px;
+  }
+  .section-projects-title {
+    margin-left: -60px;
+    font-size: 22px;
+  }
+  .section-projects-content {
+    margin-top: 50px;
+    margin-right: -10px;
+  }
+  .github-title {
+    margin-top: 15px;
+    margin-left: -100px;
+  }
+}
+
+/* IPHONE 11 pro max*/
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3){
+  .switch-platform {
+    position: relative;
+  }
+  .switch-for-dark-mode {
+    position: absolute;
+    left: 0;
+    margin-left: 500px;
+    width: 60px;
+  }
+  .intro {
+    margin-top: 100px;
+    margin-bottom: 900px;
+  }
+  .intro-heading {
+    font-size: 50px;
+    margin-bottom: 300px;
+  }
+  .intro-container {
+    width: 500px;
+  }
+  .intro-main-paragraph {
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top: -250px;
+  }
+  .bold-paragraph {
+    font-size: 45px;
+  }
+  .finger-right-emoji {
+    margin-left: 10px;
+  }
+  .email-link {
+    display: block;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px 3px;
+    color: #444452;
+    border-bottom: 5px solid #007bff;
+    font-weight: 400;
+  }
+  /* BACKGROUBD */
+  .section-background {
+    margin-top: -1200px;
+  }
+  .section-title {
+    margin-left: 60px;
+    font-size: 22px;
+  }
+  .section-content {
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  .paragraph-content {
+    font-size: 19px;
+  }
+  .skills-title {
+    margin-left: -50px;
+    font-size: 22px;
+  }
+  .skills-background {
+    margin-top: 200px;
+    margin-left: 170px;
+  }
+  .whitee {
+    font-size: 20px;
+  }
+  .label {
+    font-size: 20px;
+  }
+  .whitee2 {
+    font-size: 16px;
+  }
+  .item {
+    font-size: 16px;
+  }
+  .skills-list-1 > li {
+    margin-bottom: 6px;
+  }
+  .section-projects-background {
+    margin-top: -800px;
+    margin-right: -400px;
+  }
+  .section-projects-title {
+    margin-left: -60px;
+    font-size: 22px;
+  }
+  .section-projects-content {
+    margin-top: 50px;
+    margin-right: -10px;
+  }
+  .github-title {
+    margin-top: 15px;
+    margin-left: -100px;
+  }
+}
